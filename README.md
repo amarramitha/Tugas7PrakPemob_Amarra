@@ -1,5 +1,8 @@
 Penjelasan Login
 
+![LoginPage](loginpage.png)
+![HomeApp](homeapp.png)
+
 - File `app.module.ts` mendeklarasikan `provideHttpClient`, yang diperlukan agar aplikasi dapat melakukan komunikasi dengan API. Pada `providers`, terdapat `RouteReuseStrategy` dan `provideHttpClient()` untuk mengatur perilaku rute dan menyediakan layanan HTTP.
 
 **Membuat Layanan Autentikasi** 
